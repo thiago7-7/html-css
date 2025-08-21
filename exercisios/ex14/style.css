@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(100, 176, 247);font-size:20px ; }
+    
+    h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: rgb(11, 40, 206); background-color: rgb(59, 115, 238); font-size: 1.6em ;
+    }
+    
+    h2{color: rgb(4, 20, 107);font-size: 1.1em;
+    
+     }
+     p{
+    text-align:justify; font-style:unset;
+     }
+button{
+ color: rgb(249, 249, 255); background-color: rgb(26, 24, 24);   }
