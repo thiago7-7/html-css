@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Avenue';
+    src: url('fonte/Avenue\ de\ Madison.ttf');
+
+}
+
+@font-face {
+    font-family:'Gildeon' ;
+    src: url('fonte/Gildeon.otf');
+}
+
+:root{
+
+    --cor01:#46371D;
+    --cor02:#F2D7B6;
+    --cor03:#401E12;
+    --cor04:#A66249;
+    
+
+    --font-Gildeon: 'Gildeon';
+    --font-Avenue:'Avenue';
+    --font-padrao:Arial, Verdana,Helvetica, sans-serif;
+}
+
+
+
+body{
+   background-color: var(--cor02);
+    font-family: var(--font-padrao);
+    
+}
+
+main{
+    margin: 30px;
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.637);
+    margin-top: -32px;
+   
+}
+
+main h1 {
+
+     text-align: center;
+    font-family: var(--font-Avenue);
+    font-size: 3em;
+    color: var(--cor02);
+    text-shadow:2px 1px 1px var(--cor03);
+    padding-top: 30px;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+
+main h2 {
+    font-family: var(--font-Gildeon);
+    font-weight: normal;
+    color: var(--cor03);
+   
+    padding: 10px 10px 10px 20px;
+    margin-top: 20px;
+
+
+}
+
+article p {
+    margin: 30px 10px;
+    text-indent: 15px;
+    font-size:1,8em;
+    font-family: var(--font-padrao);
+    font-weight: normal ;
+    line-height: 1,8em;
+   
+
+}
+
+ img {
+   margin-left: 20px;
+   margin-right: 0px; 
+   width: 90%;
+   min-width: 350px;
+   max-width: 600px;
+
+
+}
+
+
+
+.cenoura ul {
+    background-color: #ffe7c9c2 ;
+    margin: 20px;
+    min-width: 350px;
+    max-width: 600px;
+    padding: 10px 10px 10px -10px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 3px  var(--cor04);
+    font-size: 1em;
+    line-height: 2.5em;
+    
+    
+}
+
+.video iframe{
+
+
+     
+    
+}
+
+
+
+}
+
+
