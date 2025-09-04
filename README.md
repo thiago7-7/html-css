@@ -1,2 +1,2 @@
 
-Estou aprendendo a criar sites e agora vou gerenciar eus repositorios!
+Estou aprendendo a criar sites e agora vou gerenciar meus repositorios!
