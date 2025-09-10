@@ -73,7 +73,7 @@ article p {
 
 }
 
-p.paragrafo{
+.cenoura > p{
     margin: 30px 10px;
     text-indent: 15px;
     font-size:1,8em;
@@ -128,7 +128,6 @@ margin: 0px;
 aside.video >iframe {
 
 position: relative;
-;
 width: 400px;
 
 padding: 20px;
