@@ -127,11 +127,12 @@ margin: 0px;
 
 aside.video >iframe {
 
-position: relative;
 width: 400px;
 
 padding: 20px;
 margin-left: -5px;
+
+
 
 }
 
