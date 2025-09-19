@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Avenue';
+    font-family: 'avenue';
     src: url('fonte/Avenue\ de\ Madison.ttf');
 
 }
@@ -18,37 +18,38 @@
     
 
     --font-Gildeon: 'Gildeon';
-    --font-Avenue:'Avenue';
+    --font-avenue:'avenue';
     --font-padrao:Arial, Verdana,Helvetica, sans-serif;
 }
+
 
 
 
 body{
    background-color: var(--cor02);
     font-family: var(--font-padrao);
-    
+    margin: -20px 30px -20px 30px;
 }
 
 main{
-    margin: 20px;
+   
     background-color: white;
     border-radius: 9px;
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.637);
-    margin-top: -32px;
+    box-shadow: 0px 3px 8px rgba(71, 53, 1, 0.637);
+    margin-top: -20px;
    
 }
 
 main h1 {
 
      text-align: center;
-    font-family: var(--font-Avenue);
-    font-size: 3em;
+    font-family: var(--font-avenue);
+    font-size: 2.5em;
     color: var(--cor02);
-    text-shadow:2px 1px 1px var(--cor03);
-    padding-top: 30px;
+    text-shadow:1px 1px 1px #401e12d7;
+    padding:20px 15px 15px 15px;
     margin-top: 10px;
-    padding-right: 20px;
+    
 }
 
 main h2 {
@@ -73,8 +74,18 @@ article p {
 
 }
 
+ .baunilha > p {
+    margin: 20px;
+    text-indent: 15px;
+    font-size:1,8em;
+    font-family: var(--font-padrao);
+    font-weight: normal ;
+    line-height: 1,8em;
+ }
+
+
 .cenoura > p{
-    margin: 30px 10px;
+    margin: 30px 10px 10px 10px;
     text-indent: 15px;
     font-size:1,8em;
     font-family: var(--font-padrao);
@@ -82,18 +93,20 @@ article p {
     line-height: 1,8em;
     
 }
+
 strong{
     color: var(--cor03);
 
   
 }
+
 strong:hover {
 color: var(--cor02);
 
 }
 
 img {
-   margin-left: 20px;
+   margin:10px ;
    margin-right: 0px; 
    width: 90%;
    min-width: 350px;
@@ -102,18 +115,22 @@ img {
 
 }
 
-
+.cenoura li {
+    margin: 3px;
+    
+}
 
 .cenoura ul {
-    background-color: #ffe7c9c2 ;
-    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #ffe7c5c2 ;
+    margin: 13px 13px 0px 13px ;
     min-width: 350px;
-    max-width: 600px;
-    padding: 10px 10px 10px -10px;
-    border-radius: 15px;
-    box-shadow: 2px 3px 3px  var(--cor04);
+    max-width: 500px;
+     border-radius: 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
     font-size: 1em;
-    line-height: 2.5em;
+    line-height: 1.5em;
    
 }
 
@@ -130,10 +147,37 @@ aside.video >iframe {
 width: 400px;
 
 padding: 20px;
-margin-left: -5px;
+margin: auto;
 
 
 
 }
+ footer{    
+    text-align: center;
+    background-color:#000000;
+    color: #fffafacb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 0.8em;
+    padding: 3px;
+   margin-top: 10px;
+    border-radius: 3px;
+ }
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding-left: 4px;
+
+}
+    
+    
+    a:hover {
+        text-decoration: underline;
+        color: #ffffff;
+
+    }
+
+   
 
 
