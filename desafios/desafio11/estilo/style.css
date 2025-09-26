@@ -1,3 +1,6 @@
+@charset "UTF-8";
+
+
 @font-face {
     font-family: 'avenue';
     src: url('fonte/Avenue\ de\ Madison.ttf');
@@ -74,14 +77,6 @@ article p {
 
 }
 
- .baunilha > p {
-    margin: 20px;
-    text-indent: 15px;
-    font-size:1,8em;
-    font-family: var(--font-padrao);
-    font-weight: normal ;
-    line-height: 1,8em;
- }
 
 
 .cenoura > p{
@@ -106,8 +101,8 @@ color: var(--cor02);
 }
 
 img {
-   margin:10px ;
-   margin-right: 0px; 
+   margin:20px ;
+  
    width: 90%;
    min-width: 350px;
    max-width: 600px;
@@ -124,11 +119,10 @@ img {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     background-color: #ffe7c5c2 ;
-    margin: 13px 13px 0px 13px ;
-    min-width: 350px;
-    max-width: 500px;
-     border-radius: 15px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+    display: inline-block;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px #0000007a;
     font-size: 1em;
     line-height: 1.5em;
    
@@ -146,7 +140,7 @@ aside.video >iframe {
 
 width: 400px;
 
-padding: 20px;
+padding: 15px;
 margin: auto;
 
 
