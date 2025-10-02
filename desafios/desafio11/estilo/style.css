@@ -137,9 +137,9 @@ img {
 
 aside.video{
 
-    padding-bottom: 50%;
+    padding-bottom: 30%;
     padding: 20px;
-   margin: 0px 20px 0px 20px
+  
 
 }
 
@@ -148,9 +148,9 @@ aside.video iframe {
  
     top: 5%;
     left: 5%;
-    right: 5%;
+
     height: 300px;
-    width: 50%;
+    width: 350px;
 
 
 
