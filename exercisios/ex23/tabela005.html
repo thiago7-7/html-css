@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: lightgray;
+        }
+
+        table{
+            border: 2px solid black;
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 300px;
+            width: 400px;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 8px;
+
+        }
+         
+        th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        col.bisque{
+            background-color: bisque;
+
+        }
+        col.cgrupo{
+            background-color: azure;
+
+        }
+     
+
+
+
+     
+
+    </style>
+
+
+
+</head>
+<body>
+   
+    <h1>Exercício de tabelas</h1>
+
+    <table>
+
+        <colgroup>
+            <col class="bisque">
+               <col class="cgrupo" span="2">
+            <col class="bisque">
+         
+        
+        </colgroup>
+
+        <caption>Cadastro</caption>
+
+            <tr>
+                <th scope="col">Nome</th>
+                <th  scope="col">Sexo</th>
+                <th  scope="col">Idade</th>
+                <th  scope="col">Profissão</th>   
+            
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+                
+            </tr>
+
+            <tr>
+                <td>Claudio</td>
+                <td>M</td>
+                <td>28</td>
+                <td>Programador</td>
+            </tr>
+
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>26</td>
+                <td>Professor</td>
+
+            </tr>
+
+            <tr>
+                <td>Helio</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Vendedor</td>
+            </tr>
+
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>39</td>
+                <td>Médica</td>
+
+            </tr>
+            <tr>
+                <td>Otávio</td>
+                <td>M</td>
+                <td>22</td>
+                <td>Nutricionoista</td>
+            </tr>
+
+
+    </table>
+
+    
+
+
+</body>
+</html>
