@@ -3,59 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>teste de imagens </title>
+    <title>teste de imagem de fundo</title>
 
-<style>
+        <style>
+                
+        body{
+        
+              background-color: lightgray;
+        }
+        
+        
+        
+        div.quadrado{
+              display: inline-block;
+              border: 2px solid black;
+              border-radius: 10px;
+              background-color: lightgray;
+              width: 300px;
+              height: 300px;
+        }
+          
+              div#q1{
+                background-color: #bbbbff;
 
-body{
-    background-image: url('imagens/wallpaper003.jpg');
+        }
+          
+              div#q2{
+             background-image: linear-gradient(to left, #00ffd5,#cfcf8d);
 
-}
 
-div.quadrado{
-    display: inline-block;
-    border: 2px solid black;
-    height: 300px;
-    width: 300px;
-    border-radius: 10px;
-    background-color: lightgray;
+          }
+              
+           div#q3{
+                background-image:url('imagens/pattern004.png') ;
 
-}
-
-div#q1 {
-    background-color: rgb(167, 252, 219);
-
-}
-
-div#q2{
-
-        background-image: linear-gradient(to top, rgb(33, 33, 216), rgb(141, 186, 255));
-}
-
-div#q3 {
-    background-image: url('imagens/pattern001.png');
-
-}
-
-</style>
-
+          }
+        </style>
 
 
 </head>
 <body>
     
+        <div class="quadrado" id="q1">
 
-<div class="quadrado" id="q1">
-
-</div>
-
-<div class="quadrado" id="q2">
-
-</div>
-
-<div class="quadrado" id="q3">
+        </div>
+ 
+       
+        <div class="quadrado" id="q2">
+       
+        </div>
 
 
-</div>
+        <div class="quadrado" id="q3">
+        
+        </div>
+
 </body>
 </html>
