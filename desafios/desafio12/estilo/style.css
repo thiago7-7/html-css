@@ -20,6 +20,7 @@
      
         html, body{
             min-height: 100vh;
+            min-height: 100vh;
             background-color: rgb(22, 20, 20);
             font-family: var(--fonte1);    
         }
@@ -28,14 +29,22 @@
             background-color: #000000;
             color: white;
             text-align: center;
-            padding: 50px;
+            
         }
         
         header > h1 {
             font-variant: small-caps;
             font-family: var(--fonte2);
-            font-size: 7vw;
+            font-size: 5vw;
+            padding-top: 50px;
         }
+
+        header > p {
+            padding-bottom:50px;
+            font-weight: bolder;
+            font-family: var(--fonte);
+            font-size: 1.1em;
+        }      
 
        a{
             text-decoration: none;
@@ -47,18 +56,14 @@
             color: #071a72;     
         }
         
-        header > p {
-            padding: 10px;
-            font-weight: bolder;
-            font-family: var(--fonte);    
-        }
+        
         section{
            padding-top: 10vh;
             padding-bottom:10vh;
             padding-left: 30px;
             line-height: 2em;
             font-family: var(--fonte3);
-            font-size: 3.5vw;
+            font-size: 4vh;
         }
 
         section > p {
@@ -68,7 +73,11 @@
         section.normal { 
             background-color: white;
             color: black;
+            font-size: 4vh;
         }
+        section p {
+            padding-bottom: 1.5em;
+            }
 
         section.imagem {
             background-color:rgb(51, 51, 51);
