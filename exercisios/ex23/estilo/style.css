@@ -9,21 +9,26 @@
         width: 500px;
         border: 1px solid #000000ee;
         border-collapse: collapse;
-       
+       position: relative;
     }
 
         thead, tfoot{
             background-color: #608bffe3;
             color: #000000ad;
-            font-size:1.1em;
+           
       
            
         }
 
+        thead > tr > th {
+            position: sticky;
+            background-color: #608bffe3;
+            color: black;
+        }
+        
         caption{
-            border: 1px solid rgba(0, 0, 0, 0.541);
+            border: 1px solid #0000008a;
             font-size: 1.4em;
-            height: 30px;
             padding: 10px;
             font-weight: bold;
             background-color: lightgray;
@@ -33,15 +38,12 @@
             color: #ffffffc5;
         }
     
- 
-
-    
      td, th {
         border: 1px solid black;
-        border-collapse: collapse;
-        padding: 8px;
+        padding: 10px;
 
     }
+
     td#num {
         text-align: right;
     }
