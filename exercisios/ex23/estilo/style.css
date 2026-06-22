@@ -7,23 +7,23 @@
 
     table{
         width: 500px;
-        border: 1px solid #000000ee;
+       
         border-collapse: collapse;
        position: relative;
     }
 
         thead, tfoot{
-            background-color: #608bffe3;
-            color: #000000ad;
+            background-color: #383838;
+            color: #ffffffad;
            
       
            
         }
 
         thead > tr > th {
-            position: sticky;
-            background-color: #608bffe3;
-            color: black;
+        position: sticky;
+        top: -1px;
+        background-color: #383838;
         }
         
         caption{
@@ -35,7 +35,8 @@
         }
 
         strong{
-            color: #ffffffc5;
+            color: #ffffff;
+            text-shadow: 1px 1px 1px black;
         }
     
      td, th {
