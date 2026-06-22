@@ -1,86 +1,54 @@
 @charset "UTF-8";
 
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }   
 
-body{
+    table{
+        width: 500px;
+        border: 1px solid #000000ee;
+        border-collapse: collapse;
+       
+    }
 
-    font-family: Arial, Helvetica, sans-serif;
-}
-table{
-    border-collapse: collapse;
-    width: 500px;
-    border-collapse: collapse;
-    position: relative;
+        thead, tfoot{
+            background-color: #608bffe3;
+            color: #000000ad;
+            font-size:1.1em;
+      
+           
+        }
 
-}
+        caption{
+            border: 1px solid rgba(0, 0, 0, 0.541);
+            font-size: 1.4em;
+            height: 30px;
+            padding: 10px;
+            font-weight: bold;
+            background-color: lightgray;
+        }
 
-thead tr th {
-    position: sticky;
-    top: -1px;
-    background-color: #000000cb;
-    color: lightgray;
-
-}
-
-thead.tfoot{
-    background-color: #000000cb;
-    color: #ffffff;
-    text-align: center;
+        strong{
+            color: #ffffffc5;
+        }
     
-}
-th{
-    height: 30px;
-    border: 1px solid black;
-}
-
-
-tr,td{
  
-    padding: 10px;
-    border: 1px solid black;
-   
 
-}
-
-
-.num{
-    text-align: right;
-    padding: 10px;
-
-}
-
-tfoot{
-    border-collapse: collapse;
-    padding: 10px;
-    background-color: #000000cb;
-
-    color: #c7c7c7;
-
-}
-
-caption{
-    background-color: lightgray;
-    font-weight: bold;
-    font-size: 1.5em;
-    font-family:Arial, Helvetica, sans-serif;
-    padding: 10px;
- 
-}
-strong{
-
-    color: #ffffff;
-}
-
-tbody tr:nth-child(odd) {
-    background-color: white;
-  
-}
-
-
-
-tbody tr:nth-child(even) {
-    background-color: lightgray;
-  
     
+     td, th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 8px;
 
-}
+    }
+    td#num {
+        text-align: right;
+    }
+
+   tbody tr:nth-child(even) {
+    background-color: lightgray;
+
+   }
+ 
 
