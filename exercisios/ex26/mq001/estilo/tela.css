@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* ESTILOS PARA TELA */
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header h1 {
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 253, 253);
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.616);
+
+}
+
+menu {
+    background-color:lightgray;
+}
+
+menu li {
+    
+    font: bold italic 1em Verdana, Geneva, Tahoma, sans-serif ;
+    display: inline-block;
+    padding: 8px;
+    color: rgb(255, 253, 253);
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.616);
+    list-style-type: none;
+  
+    
+}
+
+h2{
+  
+    margin: 20px;
+}
+
+main p {
+    line-height: 1.5em;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+
+}
+
