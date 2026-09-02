@@ -47,3 +47,6 @@
     img#pc {display: none;}
     img#tv{display: none;}
     img#print{display: none;}
+    p{
+        display: none;
+    }
