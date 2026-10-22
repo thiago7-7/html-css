@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    
+    <style>
+
+       
+       div.conteiner{
+            background-color:aquamarine;
+          
+            display: flex;
+        }
+        
+        div.item {
+            background-color: rgb(15, 15, 187);
+            border: solid 1px black;
+            padding: 20px;
+          
+      
+        }
+
+        div#i1{
+            order: 0;
+        }
+
+            div#i2{
+            order: -3;
+        }
+
+            div#i3{
+            order:-1; 
+        }
+
+            div#i4{
+            order: -2;
+        }
+
+    
+            div#i5{
+            order: 0;
+        }
+
+          div#i6{
+            order: 0;
+        }
+
+        
+          div#i7{
+            order:-2 ;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item" id="i1" >1</div>
+        <div class="item" id="i2">2</div>
+        <div class="item" id="i3">3</div>
+        <div class="item" id="i4">4</div>
+        <div class="item" id="i5">5</div>
+        <div class="item" id="i6">6</div>
+        <div class="item" id="i7">7</div>
+    </div>
+    
+</body>
+</html>
