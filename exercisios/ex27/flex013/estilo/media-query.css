@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    
+ 
+
+    menu.conteiner {
+    height:80px;
+    
+    flex-flow:row nowrap;
+    display: flex;
+    align-items: flex-end;
+  
+ 
+  
+   
+  
+    }
+
+   ul#item a {
+        display:inline-block;
+        margin: 5px 0px;
+
+       }
+
+    h1 {
+       text-align: left;
+        margin: 3px 2px;
+ 
+        
+       
+    }
+
+    div.conteiner2{
+        height: 180px;
+      
+
+    }
+}
+
+@media screen and (min-width:992px) and (max-width: 1280px) {
+    menu.conteiner {
+        height:80px;
+        align-items: end;
+        flex-flow:row nowrap;
+        display: flex;
+    }
+
+   ul#item a {
+        display:inline-block;
+        
+        
+        
+
+       }
+
+    h1 {
+        float: left;
+        margin: 3px 8px;
+       
+        
+       
+    }
+
+    div.conteiner2{
+        height: 130px;
+      
+    }
+}
+
+
+
