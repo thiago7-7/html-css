@@ -52,6 +52,7 @@ article.media-text {
 }
 
 article.text-media {
+     font-size: 0.9em;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
