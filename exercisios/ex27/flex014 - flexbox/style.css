@@ -11,10 +11,15 @@ body {
     height: 100vh;
 }
 
-p, h1, h2 {
+p {
    margin-bottom: 10px;
-   text-align: justify;
- 
+   text-align:justify ;
+
+}
+h1, h2 {
+    text-align: left;
+    margin-bottom: 10px;
+    
 
 }
 header, section.normal {
@@ -33,7 +38,7 @@ section.flex-content{
   
 }
 section > article {
-    border: 2px dashed #ff0000 ;
+   
 }
 
 article.media-text {
@@ -42,8 +47,8 @@ article.media-text {
     
     display: flex;
     flex-flow: row wrap-reverse;
-   justify-content: space-between;
-   align-items: stretch;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 article.text-media {
@@ -52,24 +57,35 @@ article.text-media {
     justify-content: space-between;
   
    
+   
 }
 
 article > div.text {
-  flex: 1 1 500px;
-   border: 2px dashed blue;
-   padding: 10px;
+  flex:1 1 500px;
+  
+
 
 }
 
 article > div.media {
-    padding: 10px; 
-    
     flex: 1 0 400px;
-     border: 2px dashed #00ff0d;
      align-self: flex-end;
    
 }
 
+div.media > img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+}
+
+div.media > iframe  {
+    display: block;
+    margin: auto;
+   padding: 10px;
+    width: 80%;
+}
 
 
 
