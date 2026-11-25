@@ -82,7 +82,7 @@ div.media > img {
 div.media > iframe  {
     display: block;
     margin: auto;
-   padding: 10px;
+   padding: px;
     width: 80%;
 }
 
